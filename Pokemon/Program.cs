@@ -56,5 +56,19 @@ Console.WriteLine("The current Count of Song is: " + song2.GetsongCount());
 
 
 // ---- Working with the inheritance Concepts -----
+IndianChef c1 = new IndianChef();
+c1.MakeChapatti();
+c1.MakeRice();
+c1.MakeSpecialDish();
+
+Console.WriteLine("------------------");
+
+RajasthaniChef r1 = new RajasthaniChef();
+r1.MakeChapatti();
+r1.MakeRice();
+r1.MakeSpecialDish();
+
+// Now, I want my RajasthaniChef to make his own specialDish, and for that i will be using
+// Virtual keyword in the superclass and override in the subclass. Hence, any child class can override that particular method.
 
 

@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Pokemon.Basics
 {
-    internal class Inheritance
+    internal class IndianChef
     {
+        public void MakeChapatti() {
+            Console.WriteLine("Makes Chapatti !!");
+        }
+
+        public void MakeRice() {
+            Console.WriteLine("Makes Rice !!");
+        }
+
+        public virtual void MakeSpecialDish() {
+            Console.WriteLine("Makes an Indian Cuisine !!");
+        }
+
     }
 }
