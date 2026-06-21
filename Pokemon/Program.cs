@@ -38,11 +38,20 @@ Student s2 = new Student("Alex", "Mathematics", 9.5);
 //Console.WriteLine(s2.hasMerit());
 
 
-
 // ---- Working with the Getters & Setters(Putting a Double Wrapper Security Guard Encapsulation) -------
 Movie m1 = new Movie("Harry-Potter", 9, "Mark James");
 m1.Rating = -1; // This Line will never execute in this case 
 
-
 Movie m2 = new Movie("Harry", -9999, "Mark J");
 Console.WriteLine(m2.Rating); // In this case -999 will never be going to set coz if(value>=0) will give us false, hence default value 0 will come to o/p
+
+
+
+// ---- Working with Static Methods ------
+Song song1 = new Song("Waka-waka", 120, "Shakira");
+Console.WriteLine("The current Count of Song is: " + Song.songCount);
+
+Song song2 = new Song("Respect", 110, "Bohemiyan");
+Console.WriteLine("The current Count of SOng is: "+ Song.songCount);
+
+

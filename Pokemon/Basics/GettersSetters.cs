@@ -19,7 +19,7 @@ namespace Pokemon.Basics
             actor = mactor;
         }
 
-        //  Getter-Setters
+        //  Getter-Setters (Multi-Factor Security for My rating attribute, Double-Wrapping)
         public int Rating {
             get  { return rating; }
             set { if (value >= 0) rating=value; }
