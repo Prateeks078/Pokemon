@@ -13,7 +13,7 @@ using Pokemon.Basics;
 
 
 
-//----- Starting the Classes & Objects -----
+//----- Starting the Classes & Objects (ClassesObjects.cs)-----
 //Book book1 = new Book();
 
 //book1.title = "Romeo & Juliet";
@@ -25,7 +25,13 @@ using Pokemon.Basics;
 
 
 
-//----- Starting with the Constructors -----
+//----- Starting with the Constructors (Constructor Class) -----
 Car car1 = new Car("Mustang", 340000, "Elon Musk");
-Console.WriteLine(car1.brand);
+//Console.WriteLine(car1.brand);
 
+// ----- Starting with the ObjectMethods Concepts (ObjectMethods.cs Class) ----
+Student s1 = new Student("Anish", "Mathematics", 3.4);
+Student s2 = new Student("Alex", "Mathematics", 9.5);
+
+Console.WriteLine(s1.hasMerit());
+Console.WriteLine(s2.hasMerit());

@@ -12,7 +12,7 @@ namespace Pokemon.Basics
         public int price;
         public string ceo;
 
-        public Car(string b,int p,string c) { // This is a constructor, if i would'nt have written public it would have become private constructor 
+        public Car(string b,int p,string c) { // Defining a constructor, if i would'nt have written public it would have become private constructor 
             brand = b;
             price = p;
             ceo = c;
