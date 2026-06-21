@@ -52,6 +52,9 @@ Song song1 = new Song("Waka-waka", 120, "Shakira");
 Console.WriteLine("The current Count of Song is: " + Song.songCount);
 
 Song song2 = new Song("Respect", 110, "Bohemiyan");
-Console.WriteLine("The current Count of SOng is: "+ Song.songCount);
+Console.WriteLine("The current Count of Song is: " + song2.GetsongCount());
+
+
+// ---- Working with the inheritance Concepts -----
 
 

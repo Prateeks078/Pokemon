@@ -20,5 +20,11 @@ namespace Pokemon.Basics
             singer = singername;
             songCount++; // It will be incremented everytime an instance is being created of a Song 
         }
+
+
+        //Defining a static MethodA for the same 
+        public int GetsongCount() {
+            return songCount;
+        }
     }
 }
