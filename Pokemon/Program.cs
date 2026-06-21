@@ -12,11 +12,20 @@ using Pokemon.Basics;
 //ExceptionHandling.Run2();
 
 
+
 //----- Starting the Classes & Objects -----
-Book book1 = new Book();
+//Book book1 = new Book();
 
-book1.title = "Romeo & Juliet";
-book1.pages = 230;
-book1.author = "Prateek Sharma";
+//book1.title = "Romeo & Juliet";
+//book1.pages = 230;
+//book1.author = "Prateek Sharma";
 
-Console.WriteLine(book1.title);
+//Console.WriteLine(book1.title);
+
+
+
+
+//----- Starting with the Constructors -----
+Car car1 = new Car("Mustang", 340000, "Elon Musk");
+Console.WriteLine(car1.brand);
+
