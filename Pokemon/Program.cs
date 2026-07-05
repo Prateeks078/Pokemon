@@ -79,3 +79,12 @@ NestingMemberFunctions n1 = new NestingMemberFunctions();
 n1.Getnum();
 n1.Checkbin();
 n1.OnesBin();
+
+//----------------------------------------------------------- STARTING ARRAYS IN CLASSES CONCEPTS ---------------------------------------------------------
+
+Shop dukaan = new Shop();
+dukaan.InitCounter();
+dukaan.SetPrice();
+dukaan.SetPrice();
+dukaan.SetPrice();
+dukaan.DisplayPrice();
