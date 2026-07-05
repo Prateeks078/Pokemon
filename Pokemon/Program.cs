@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Pokemon.Basics;
+using Pokemon.OOPS;
 
 //Console.WriteLine("Hello, World!");
 
@@ -72,3 +73,8 @@ r1.MakeSpecialDish();
 // Virtual keyword in the superclass and override in the subclass. Hence, any child class can override that particular method.
 
 
+//----------------------------------------------------------- STARTING OBJECT ORIENTED PROGRAMMING CONCEPTS ---------------------------------------------------------
+
+NestingMemberFunctions n1 = new NestingMemberFunctions();
+//n1.Getnum();
+n1.Displaynum();
