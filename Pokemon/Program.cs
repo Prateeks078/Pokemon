@@ -76,5 +76,6 @@ r1.MakeSpecialDish();
 //----------------------------------------------------------- STARTING OBJECT ORIENTED PROGRAMMING CONCEPTS ---------------------------------------------------------
 
 NestingMemberFunctions n1 = new NestingMemberFunctions();
-//n1.Getnum();
-n1.Displaynum();
+n1.Getnum();
+n1.Checkbin();
+n1.OnesBin();
