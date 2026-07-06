@@ -73,18 +73,31 @@ r1.MakeSpecialDish();
 // Virtual keyword in the superclass and override in the subclass. Hence, any child class can override that particular method.
 
 
-//----------------------------------------------------------- STARTING OBJECT ORIENTED PROGRAMMING CONCEPTS ---------------------------------------------------------
+//----------------------------------------------------------- STARTING OBJECT ORIENTED PROGRAMMING CONCEPTS -----------------------------------------------
 
 NestingMemberFunctions n1 = new NestingMemberFunctions();
-n1.Getnum();
-n1.Checkbin();
-n1.OnesBin();
+//n1.Getnum();
+//n1.Checkbin();
+//n1.OnesBin();
 
 //----------------------------------------------------------- STARTING ARRAYS IN CLASSES CONCEPTS ---------------------------------------------------------
 
 Shop dukaan = new Shop();
-dukaan.InitCounter();
-dukaan.SetPrice();
-dukaan.SetPrice();
-dukaan.SetPrice();
-dukaan.DisplayPrice();
+//dukaan.InitCounter();
+//dukaan.SetPrice();
+//dukaan.SetPrice();
+//dukaan.SetPrice();
+//dukaan.DisplayPrice();
+
+//-------------------------------------------------------------- STATIC CONCEPTS IN OOPS ------------------------------------------------------------------
+
+Employee e1=new Employee();
+e1.SetId();
+e1.GetId();
+Employee.GetCount();
+
+Employee e2 = new Employee();
+e2.SetId();
+e2.GetId();
+Employee.GetCount();
+
