@@ -91,13 +91,25 @@ Shop dukaan = new Shop();
 
 //-------------------------------------------------------------- STATIC CONCEPTS IN OOPS ------------------------------------------------------------------
 
-Employee e1=new Employee();
-e1.SetId();
-e1.GetId();
-Employee.GetCount();
+//Employee e1=new Employee();
+//e1.SetId();
+//e1.GetId();
+//Employee.GetCount();
 
-Employee e2 = new Employee();
-e2.SetId();
-e2.GetId();
-Employee.GetCount();
+//Employee e2 = new Employee();
+//e2.SetId();
+//e2.GetId();
+//Employee.GetCount();
 
+//--------------------------------------------------------------  Passing Objects and Arrays Functionality in Classes ------------------------------------------------------------------
+
+//"Create an array that can hold 4 Employee references."
+Employee1[] fb = new Employee1[4];
+
+for (int i = 0; i < fb.Length; i++) {
+    //  We cant directly do fb[i].SetId and getid because we will get NUll reference exception
+    //  That is why we firstly reference it
+    fb[i] = new Employee1();
+    fb[i].SetId();
+    fb[i].GetId();
+}
