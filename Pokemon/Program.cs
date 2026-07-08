@@ -114,3 +114,19 @@ for (int i = 0; i < fb.Length; i++) {
     fb[i].GetId();
 }
 
+// Passing object in a Class 
+Complex c11 = new Complex();
+Complex c22 = new Complex();
+Complex c33 = new Complex();
+
+c11.SetReal();
+c11.SetComplex();
+c11.DisplayNum();
+
+c22.SetReal();
+c22.SetComplex();
+c22.DisplayNum();
+
+c33.Numadd(c11, c22);
+c33.DisplayNum();
+
