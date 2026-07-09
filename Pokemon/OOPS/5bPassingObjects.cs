@@ -25,7 +25,8 @@ namespace Pokemon.OOPS
             Console.WriteLine("The Complete Number is: " + a + "+" + b + "i");
         }
 
-        public void Numadd(Complex obj1, Complex obj2) { // Passed Object in Method Parameters
+        public void Numadd(Complex obj1, Complex obj2) { 
+            // Passed Object in Method Parameters
             a = obj1.a + obj2.a;
             b = obj1.b + obj2.b;
         }
