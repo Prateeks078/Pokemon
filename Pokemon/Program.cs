@@ -133,12 +133,21 @@ Shop dukaan = new Shop();
 //-------------------------------------------------  CONSTRUCTORS CONCEPT (Default and Parameterized) ------------------------------------------------------------------
 
 Complex99 c99 = new Complex99();
-Complex99 c100 = new Complex99();
-Complex99 c101 = new Complex99();
+//Complex99 c100 = new Complex99();
+//Complex99 c101 = new Complex99();
 
-c99.Display();
-c100.Display();
-c101.Display();
+//c99.Display();
+//c100.Display();
+//c101.Display();
 
 // ------------------------------------------------ STARTING PARAMETERIZED CONSTRUCTOR -----------------------------------------------------
 
+Num num1 = new Num();
+{
+    Num num2 = new Num();
+    Num num3 = new Num();
+
+}
+
+// This shows that Destructors Do exists in C# but it does'nt automatically called when Object goes out of the scope...
+// It particularly depends on Garbage Collector when to call the destructor..
