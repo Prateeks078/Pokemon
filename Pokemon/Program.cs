@@ -103,30 +103,42 @@ Shop dukaan = new Shop();
 
 //--------------------------------------------------------------  Passing Objects and Arrays Functionality in Classes ------------------------------------------------------------------
 
-//"Create an array that can hold 4 Employee references."
-Employee1[] fb = new Employee1[4];
+////"Create an array that can hold 4 Employee references."
+//Employee1[] fb = new Employee1[4];
 
-for (int i = 0; i < fb.Length; i++) {
-    //  We cant directly do fb[i].SetId and getid because we will get NUll reference exception
-    //  That is why we firstly reference it
-    fb[i] = new Employee1();
-    fb[i].SetId();
-    fb[i].GetId();
-}
+//for (int i = 0; i < fb.Length; i++) {
+//    //  We cant directly do fb[i].SetId and getid because we will get NUll reference exception
+//    //  That is why we firstly reference it
+//    fb[i] = new Employee1();
+//    fb[i].SetId();
+//    fb[i].GetId();
+//}
 
-// Passing object in a Class 
-Complex c11 = new Complex();
-Complex c22 = new Complex();
-Complex c33 = new Complex();
+//// Passing object in a Class 
+//Complex c11 = new Complex();
+//Complex c22 = new Complex();
+//Complex c33 = new Complex();
 
-c11.SetReal();
-c11.SetComplex();
-c11.DisplayNum();
+//c11.SetReal();
+//c11.SetComplex();
+//c11.DisplayNum();
 
-c22.SetReal();
-c22.SetComplex();
-c22.DisplayNum();
+//c22.SetReal();
+//c22.SetComplex();
+//c22.DisplayNum();
 
-c33.Numadd(c11, c22);
-c33.DisplayNum();
+//c33.Numadd(c11, c22);
+//c33.DisplayNum();
+
+//-------------------------------------------------  CONSTRUCTORS CONCEPT (Default and Parameterized) ------------------------------------------------------------------
+
+Complex99 c99 = new Complex99();
+Complex99 c100 = new Complex99();
+Complex99 c101 = new Complex99();
+
+c99.Display();
+c100.Display();
+c101.Display();
+
+// ------------------------------------------------ STARTING PARAMETERIZED CONSTRUCTOR -----------------------------------------------------
 
