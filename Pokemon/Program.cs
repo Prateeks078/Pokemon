@@ -159,6 +159,6 @@ Base B1 = new Base();
 //Console.WriteLine(B1.GetData2());
 
 Derived D1 = new Derived();
-D1.SetData(); // -----> SOLID FOCUS: Keep in mind if i have L-17 Constructot, i can skip this setdata thing and my derived class will automatically catch d1,d2 otherwise i need to run this setdata thing first from der object it'is obvious man
+D1.SetData(); // -----> SOLID FOCUS: Keep in mind if i have L-17 Constructor, i can skip this setdata thing and my derived class will automatically catch d1,d2 otherwise i need to run this setdata thing first from der object it'is obvious man
 D1.Process();
 D1.Display();
